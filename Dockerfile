@@ -1,4 +1,4 @@
-ARG ARCH=amd64
+ARG ARCH=i386
 ARG DISTRO=xenial
 
 FROM snapcraft/$DISTRO-$ARCH:latest
